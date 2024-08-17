@@ -32,7 +32,7 @@ $(document).ready(function(){
         return lowestTemperatures;
     }
 
-    // get city weather information using its coordinates through an api and show it to user
+    // get city weather information using its coordinates through a third-party api and show it to user
     function getWeatherInformation(city){
         var url = 'https://api.open-meteo.com/v1/forecast?latitude=' + city.lat + '&longitude=' +
         city.lon + '&hourly=temperature_2m&timezone=auto&forecast_days=' + forecastDays,
