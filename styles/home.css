@@ -6,9 +6,8 @@
 ul {
     list-style-type: none;
 }
-.body {
+body {
     font-family: 'Times New Roman', Times, serif;
-    background-color: #f0f0f0;
 }
 .button {
     cursor: pointer;
